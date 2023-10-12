@@ -18,10 +18,6 @@ public class Person {
         this.vezeteknev = vezeteknev;
     }
 
-    static void printPerson(){
-        System.out.println(getKeresztnev);
-    }
-
     public void printSzemely(){
         System.out.printf("Név: %S %S %d %d %d", keresztnev , vezeteknev , szulev, szulhonap, szulnap);
 
@@ -48,6 +44,7 @@ public class Person {
     }
 
     public void setSzulev(int szulev) {
+
         this.szulev = szulev;
     }
 
